@@ -14,3 +14,38 @@ form {
 em {
     font-weight: bold;
 }
+#app {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.card_question_block {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.card_answer_block {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+} 
+
+.card_item {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    max-width: 300px;
+    padding: 5px 10px;
+}
+
+.card_item_question {
+    background-color: #e5e2de; 
+}
+
+.card_item_answer {
+    background-color: #d1eefc;
+}
+
+.question_answer_cont {
+    margin-bottom: 30px;
+}
